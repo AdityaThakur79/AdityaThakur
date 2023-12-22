@@ -259,7 +259,7 @@ export const projects = [
     description: "A Random Quote Generator Website which generates random quotes on clicking the button using API.",
     image: "/project_images/random-quote-generator.png",
     tags: ["ReactJS", "CSS", "Axios" , "Advice Slip API"],
-    category: "frontend web app",
+    category: "api projects",
     github:
       "https://github.com/AdityaThakur79/Random-Quote-Generator",
     webapp: "https://adityarandom-quote-generator.netlify.app/",
