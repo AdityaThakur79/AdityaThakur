@@ -74,14 +74,14 @@ const Projects = ({ openModal, setOpenModal }) => {
               value="api projects"
               onClick={() => setToggle("api projects")}
             >
-              Api Projects
+              ApI Projects
             </ToggleButton>
           ) : (
             <ToggleButton
               value="api projects"
               onClick={() => setToggle("api projects")}
             >
-              Api Projects
+              ApI Projects
             </ToggleButton>
           )}
           <Divider />
