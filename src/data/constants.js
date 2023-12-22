@@ -11,7 +11,7 @@ export const Bio = {
   description2: "I’m not a superhero,but can make your website SUPER!",
   github: "https://github.com/AdityaThakur79",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "",
   linkedin: "https://www.linkedin.com/in/aditya-thakur-507363282/",
   twitter: "https://twitter.com/Aditya__0508",
   insta: "https://www.instagram.com/mai_adityathakur/",
@@ -100,6 +100,11 @@ export const skills = [
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "Vercel",
+        image:
+          "https://www.svgrepo.com/show/327408/logo-vercel.svg",
       },
       {
         name: "VS Code",
