@@ -10,8 +10,7 @@ export const Bio = {
     "Learner , Tech Philosopher and a Cs-UnderGraduate at Universal College Of Engineering.",
   description2: "I’m not a superhero,but can make your website SUPER!",
   github: "https://github.com/AdityaThakur79",
-  resume:
-    "",
+  resume: "",
   linkedin: "https://www.linkedin.com/in/aditya-thakur-507363282/",
   twitter: "https://twitter.com/Aditya__0508",
   insta: "https://www.instagram.com/mai_adityathakur/",
@@ -103,8 +102,7 @@ export const skills = [
       },
       {
         name: "Vercel",
-        image:
-          "https://www.svgrepo.com/show/327408/logo-vercel.svg",
+        image: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
       },
       {
         name: "VS Code",
@@ -182,44 +180,20 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Todo Web App",
-    date: "",
+    title: "Random Quote Generator",
+    date: "20 Dec 2023",
     description:
-      " A Todo Web App made with React JS, Tailwind CSS, and Firebase.User Can Create , Update and Delete tasks. ",
-    image: "/project_images/todoapp.png",
-    tags: ["React Js", "TailwindCSS", "Firebase"],
-    category: "firebase projects",
-    github: "https://github.com/AdityaThakur79/todolist",
-    webapp: "https://adityatodoapp.netlify.app/",
+      "A Random Quote Generator Website which generates random quotes on clicking the button using API.",
+    image: "/project_images/random-quote-generator.png",
+    tags: ["ReactJS", "CSS", "Axios", "Advice Slip API"],
+    category: "api projects",
+    github: "https://github.com/AdityaThakur79/Random-Quote-Generator",
+    webapp: "https://adityarandom-quote-generator.netlify.app/",
   },
   {
     id: 1,
-    title: "Job Searching App",
-    date: "",
-    description:
-      " A Job Searching Website made with HTML, CSS and JS.It consists Sections like About, Services  , Recommended Jobs , Login and Signup Page,Footer Section and Lot More.",
-    image: "/project_images/jobsdekho.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "frontend web app",
-    github: "https://github.com/AdityaThakur79/Task-2-NuveraJobs",
-    webapp: "https://jobsdekho.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Contact App",
-    date: "",
-    description:
-      " A Contact Web App made with React JS, Tailwind CSS, and Firebase.User Can Create , Update , Search and Delete Contacts. ",
-    image: "/project_images/contactapp.png",
-    tags: ["React Js", "TailwindCSS", "Firebase"],
-    category: "firebase projects",
-    github: "https://github.com/AdityaThakur79/ContactApp",
-    webapp: "https://adityacontactapp.netlify.app/",
-  },
-  {
-    id: 3,
     title: "Blogging Application",
-    date: "",
+    date: "14 December 2023",
     description:
       " A Blogging Application Web App made with React JS, Tailwind CSS,Tailwind Materials and Firebase storage and Authentication. It has a Admin dashboard where admin can create and delete blogs.Functionalities like searching of blogs , Light mode and Dark Mode , Routing are provided.",
     image: "/project_images/adityablogss.png",
@@ -229,21 +203,58 @@ export const projects = [
     webapp: "https://adityablogs.vercel.app/",
   },
   {
-    id: 4,
-    title: "RedStore",
-    date: "",
+    id: 2,
+    title: "Job Searching App",
+    date: "12 August 2023",
     description:
-      "A Redstore is a frontend of a E-commerce Website Made By Using HTML , CSS and JS.",
-    image: "/project_images/redstore.png",
-    tags: ["HTML", "CSS", "JS"],
+      " A Job Searching Website made with HTML, CSS and JS.It consists Sections like About, Services  , Recommended Jobs , Login and Signup Page,Footer Section and Lot More.",
+    image: "/project_images/jobsdekho.png",
+    tags: ["HTML", "CSS", "JavaScript"],
     category: "frontend web app",
-    github: "https://github.com/AdityaThakur79/Frontend-E-Commerce-Website",
-    webapp: "https://adityaredstore.netlify.app/",
+    github: "https://github.com/AdityaThakur79/Task-2-NuveraJobs",
+    webapp: "https://jobsdekho.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Todo Web App",
+    date: "6 August 2023",
+    description:
+      " A Todo Web App made with React JS, Tailwind CSS, and Firebase.User Can Create , Update and Delete tasks. ",
+    image: "/project_images/todoapp.png",
+    tags: ["React Js", "TailwindCSS", "Firebase"],
+    category: "firebase projects",
+    github: "https://github.com/AdityaThakur79/todolist",
+    webapp: "https://adityatodoapp.netlify.app/",
+  },
+
+  {
+    id: 4,
+    title: "Contact App",
+    date: "16 July 2023",
+    description:
+      " A Contact Web App made with React JS, Tailwind CSS, and Firebase.User Can Create , Update , Search and Delete Contacts. ",
+    image: "/project_images/contactapp.png",
+    tags: ["React Js", "TailwindCSS", "Firebase"],
+    category: "firebase projects",
+    github: "https://github.com/AdityaThakur79/ContactApp",
+    webapp: "https://adityacontactapp.netlify.app/",
   },
   {
     id: 5,
+    title: "Course App",
+    date: "23 December 2022",
+    description:
+      "A Course App built using reactJS, TailwindCSS, SpringBoot(Rest API) and MySQL.",
+    image: "/project_images/course.png",
+    tags: ["ReactJS", "TailwindCSS", "SpringBoot", "MySQL"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/CoursesApp",
+    webapp: "https://adityacoursesapp.netlify.app/",
+  },
+  {
+    id: 6,
     title: "Portfolio Website Design",
-    date: "",
+    date: "21 September 2022",
     description: "A Portfolio Website design Made By Using HTML , CSS and JS.",
     image: "/project_images/portfolio.png",
     tags: ["HTML", "CSS", "JS"],
@@ -253,19 +264,17 @@ export const projects = [
     webapp: "https://adityathakurportfolio.netlify.app/",
   },
   {
-    id: 6,
-    title: "Random Quote Generator",
-    date: "20 Dec 2023",
-    description: "A Random Quote Generator Website which generates random quotes on clicking the button using API.",
-    image: "/project_images/random-quote-generator.png",
-    tags: ["ReactJS", "CSS", "Axios" , "Advice Slip API"],
-    category: "api projects",
-    github:
-      "https://github.com/AdityaThakur79/Random-Quote-Generator",
-    webapp: "https://adityarandom-quote-generator.netlify.app/",
+    id: 7,
+    title: "RedStore",
+    date: "30 July 2022",
+    description:
+      "A Redstore is a frontend of a E-commerce Website Made By Using HTML , CSS and JS.",
+    image: "/project_images/redstore.png",
+    tags: ["HTML", "CSS", "JS"],
+    category: "frontend web app",
+    github: "https://github.com/AdityaThakur79/Frontend-E-Commerce-Website",
+    webapp: "https://adityaredstore.netlify.app/",
   },
-  
-
 ];
 
 // export const TimeLineData = [
