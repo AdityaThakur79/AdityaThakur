@@ -203,7 +203,7 @@ export const projects = [
     webapp: "https://adityafoodymart.netlify.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Blogging Application",
     date: "14 December 2023",
     description:
@@ -215,7 +215,7 @@ export const projects = [
     webapp: "https://adityablogs.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Job Searching App",
     date: "12 August 2023",
     description:
@@ -227,7 +227,7 @@ export const projects = [
     webapp: "https://jobsdekho.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Todo Web App",
     date: "6 August 2023",
     description:
@@ -240,7 +240,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Contact App",
     date: "16 July 2023",
     description:
@@ -252,7 +252,7 @@ export const projects = [
     webapp: "https://adityacontactapp.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Course App",
     date: "23 December 2022",
     description:
@@ -264,7 +264,7 @@ export const projects = [
     webapp: "https://adityacoursesapp.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio Website Design",
     date: "21 September 2022",
     description: "A Portfolio Website design Made By Using HTML , CSS and JS.",
@@ -276,7 +276,7 @@ export const projects = [
     webapp: "https://adityathakurportfolio.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "RedStore",
     date: "30 July 2022",
     description:
