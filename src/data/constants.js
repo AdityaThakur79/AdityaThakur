@@ -192,6 +192,18 @@ export const projects = [
   },
   {
     id: 1,
+    title: "FoodyMart",
+    date: "15 December 2022",
+    description:
+      "A FoodMart website is made using ReactJS and By fetching the API built in TypeScript.It has searching and filtering functionality.",
+    image: "/project_images/foodymart.png",
+    tags: ["ReactJS", "TypeScript"],
+    category: "api projects",
+    github: "https://github.com/AdityaThakur79/FoodyMart",
+    webapp: "https://adityafoodymart.netlify.app/",
+  },
+  {
+    id: 1,
     title: "Blogging Application",
     date: "14 December 2023",
     description:
