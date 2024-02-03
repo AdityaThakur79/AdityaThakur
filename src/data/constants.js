@@ -10,7 +10,7 @@ export const Bio = {
     "Learner , Tech Philosopher and a Cs-UnderGraduate at Universal College Of Engineering.",
   description2: "I’m not a superhero,but can make your website SUPER!",
   github: "https://github.com/AdityaThakur79",
-  resume: "https://drive.google.com/drive/u/0/home",
+  resume: "https://drive.google.com/file/d/1Gs1zN-S0QXAuZcFyhbrR9mgBey2pdOtX/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/aditya-thakur-507363282/",
   twitter: "https://twitter.com/Aditya__0508",
   insta: "https://www.instagram.com/mai_adityathakur/",
