@@ -1,10 +1,9 @@
 export const Bio = {
   name: "Aditya Thakur",
   roles: [
-    "Web Developer;",
+    "Full Stack Web Developer;",
     "FreeLancer;",
     "C.E. Undergraduate;",
-    "Programmer;",
   ],
   description1:
     "Learner , Tech Philosopher and a Cs-UnderGraduate at Universal College Of Engineering.",
@@ -119,6 +118,11 @@ export const skills = [
         image:
           "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
       },
+      {
+        name:"Shopify",
+        image: 
+        "https://logos-download.com/wp-content/uploads/2016/10/Shopify_logo_icon.png"
+      }
     ],
   },
 ];
@@ -131,6 +135,27 @@ export const experiences = [
     company: "Google Development Student Club",
     date: "Aug 2023 - May 2024",
     desc: "A key contributor to the club's technical initiatives and activities. Actively participated in various aspects of technology, coding, and development within the student community. ",
+    // skills: [
+    //   "Docker",
+    //   "Terraform",
+    //   "AWS",
+    //   "EC2",
+    //   "Portainer",
+    //   "Nginx",
+    //   "JavaScript",
+    //   "TypeScript",
+    //   "Node Js",
+    //   " Next Js",
+    // ],
+    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  },
+  {
+    id: 1,
+    img: "https://socialforlocal.in/assets/images/new-logo.png",
+    role: "Full Stack Web Developer",
+    company: "Social For Local",
+    date: "1 May 2024 - Present",
+    desc: "As a full-stack web developer at Social for Local, I design, develop, and maintain dynamic websites and applications, ensuring seamless user experiences.",
     // skills: [
     //   "Docker",
     //   "Terraform",
