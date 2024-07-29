@@ -312,6 +312,31 @@ export const projects = [
     github: "https://github.com/AdityaThakur79/Frontend-E-Commerce-Website",
     webapp: "https://adityaredstore.netlify.app/",
   },
+  {
+    id: 9,
+    title: "FamilyTree Restaurant",
+    date: "12 Jan 2024",
+    description:
+      "A FamilyTree Website is a frontend of a Restaurant Based in Thane. Made By Using HTML , CSS and JS.",
+    image: "/project_images/familytree.png",
+    tags: ["HTML", "CSS", "JS"],
+    category: "frontend web app",
+    github: "https://github.com/AdityaThakur79/family-tree",
+    webapp: "https://family--tree.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "FaceGram",
+    date: "05 May 2024",
+    description:
+      "Facegram, a robust social media application built with the MERN stack, offers complete functionality including user authentication, friend management, posts, and seamless interaction, fostering a vibrant online community experience. ",
+    image: "/project_images/Facegram.png",
+    tags: ["ReactJS", "TailwindCSS", "ExpressJS", "NodeJS","MongoDB"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/FaceGram",
+    webapp: "",
+  },
+
 ];
 
 // export const TimeLineData = [
