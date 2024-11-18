@@ -1,15 +1,12 @@
 export const Bio = {
   name: "Aditya Thakur",
-  roles: [
-    "Full Stack Web Developer;",
-    "FreeLancer;",
-    "C.E. Undergraduate;",
-  ],
+  roles: ["Full Stack Web Developer;", "FreeLancer;", "C.E. Undergraduate;"],
   description1:
-    "GDG on Campus Lead, Full Stack Web Developer, and a Computer-UnderGraduate at Universal College Of Engineering.",
-  description2: "I’m not a superhero,but can make your website SUPER!",
+    "Google DEveloper Groups on Campus(Previously GDSC) Lead, Full Stack Web Developer, and a Computer-UG at Universal College Of Engineering.",
+  description2: "",
   github: "https://github.com/AdityaThakur79",
-  resume: "https://drive.google.com/file/d/1kcnkAmxTBnIMcYJ7qajQLCoMCb56zAwj/view?usp=sharing",
+  resume:
+    "https://drive.google.com/file/d/1kcnkAmxTBnIMcYJ7qajQLCoMCb56zAwj/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aditya-thakur-507363282/",
   twitter: "https://twitter.com/Aditya__0508",
   insta: "https://www.instagram.com/mai_adityathakur/",
@@ -86,8 +83,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://www.svgrepo.com/show/58/git-logo.svg",
+        image: "https://www.svgrepo.com/show/58/git-logo.svg",
       },
       {
         name: "GitHub",
@@ -119,10 +115,10 @@ export const skills = [
           "https://th.bing.com/th/id/OIP.jYcja5Jg64PLcKLvs6fBRwHaED?rs=1&pid=ImgDetMain",
       },
       {
-        name:"Shopify",
-        image: 
-        "https://logos-download.com/wp-content/uploads/2016/10/Shopify_logo_icon.png"
-      }
+        name: "Shopify",
+        image:
+          "https://logos-download.com/wp-content/uploads/2016/10/Shopify_logo_icon.png",
+      },
     ],
   },
 ];
@@ -154,7 +150,7 @@ export const experiences = [
     img: "https://socialforlocal.in/assets/images/new-logo.png",
     role: "Full Stack Web Developer",
     company: "Social For Local",
-    date: "1 May 2024 - Present",
+    date: "1 May 2024 - 31st October(6 Months)",
     desc: "As a full-stack web developer at Social for Local, I design, develop, and maintain dynamic websites and applications, ensuring seamless user experiences.",
     // skills: [
     //   "Docker",
@@ -226,42 +222,6 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Random Quote Generator",
-    date: "20 Dec 2023",
-    description:
-      "A Random Quote Generator Website which generates random quotes on clicking the button using API.",
-    image: "/project_images/random-quote-generator.png",
-    tags: ["ReactJS", "CSS", "Axios", "Advice Slip API"],
-    category: "api projects",
-    github: "https://github.com/AdityaThakur79/Random-Quote-Generator",
-    webapp: "https://adityarandom-quote-generator.netlify.app/",
-  },
-  {
-    id: 1,
-    title: "FoodyMart",
-    date: "15 December 2022",
-    description:
-      "A FoodMart website is made using ReactJS and By fetching the API built in TypeScript.It has searching and filtering functionality.",
-    image: "/project_images/foodymart.png",
-    tags: ["ReactJS", "TypeScript"],
-    category: "api projects",
-    github: "https://github.com/AdityaThakur79/FoodyMart",
-    webapp: "https://adityafoodymart.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "Blogging Application",
-    date: "14 December 2023",
-    description:
-      " A Blogging Application Web App made with React JS, Tailwind CSS,Tailwind Materials and Firebase storage and Authentication. It has a Admin dashboard where admin can create and delete blogs.Functionalities like searching of blogs , Light mode and Dark Mode , Routing are provided.",
-    image: "/project_images/adityablogss.png",
-    tags: ["React Js", "TailwindCSS", "Firebase"],
-    category: "firebase projects",
-    github: "https://github.com/AdityaThakur79/AdityaBlogs",
-    webapp: "https://adityablogs.vercel.app/",
-  },
-  {
-    id: 3,
     title: "Job Searching App",
     date: "12 August 2023",
     description:
@@ -273,44 +233,7 @@ export const projects = [
     webapp: "https://jobsdekho.vercel.app/",
   },
   {
-    id: 4,
-    title: "Todo Web App",
-    date: "6 August 2023",
-    description:
-      " A Todo Web App made with React JS, Tailwind CSS, and Firebase.User Can Create , Update and Delete tasks. ",
-    image: "/project_images/todoapp.png",
-    tags: ["React Js", "TailwindCSS", "Firebase"],
-    category: "firebase projects",
-    github: "https://github.com/AdityaThakur79/todolist",
-    webapp: "https://adityatodoapp.netlify.app/",
-  },
-
-  {
-    id: 5,
-    title: "Contact App",
-    date: "16 July 2023",
-    description:
-      " A Contact Web App made with React JS, Tailwind CSS, and Firebase.User Can Create , Update , Search and Delete Contacts. ",
-    image: "/project_images/contactapp.png",
-    tags: ["React Js", "TailwindCSS", "Firebase"],
-    category: "firebase projects",
-    github: "https://github.com/AdityaThakur79/ContactApp",
-    webapp: "https://adityacontactapp.netlify.app/",
-  },
-  {
-    id: 6,
-    title: "Course App",
-    date: "23 December 2022",
-    description:
-      "A Course App built using reactJS, TailwindCSS, SpringBoot(Rest API) and MySQL.",
-    image: "/project_images/course.png",
-    tags: ["ReactJS", "TailwindCSS", "SpringBoot", "MySQL"],
-    category: "fullstack projects",
-    github: "https://github.com/AdityaThakur79/CoursesApp",
-    webapp: "https://adityacoursesapp.netlify.app/",
-  },
-  {
-    id: 7,
+    id: 1,
     title: "Portfolio Website Design",
     date: "21 September 2022",
     description: "A Portfolio Website design Made By Using HTML , CSS and JS.",
@@ -322,7 +245,7 @@ export const projects = [
     webapp: "https://adityathakurportfolio.netlify.app/",
   },
   {
-    id: 8,
+    id: 2,
     title: "RedStore",
     date: "30 July 2022",
     description:
@@ -334,7 +257,7 @@ export const projects = [
     webapp: "https://adityaredstore.netlify.app/",
   },
   {
-    id: 9,
+    id: 3,
     title: "FamilyTree Restaurant",
     date: "12 Jan 2024",
     description:
@@ -346,18 +269,113 @@ export const projects = [
     webapp: "https://family--tree.vercel.app/",
   },
   {
-    id: 10,
+    id: 4,
+    title: "Blogging Application",
+    date: "14 December 2023",
+    description:
+      " A Blogging Application Web App made with React JS, Tailwind CSS,Tailwind Materials and Firebase storage and Authentication. It has a Admin dashboard where admin can create and delete blogs.Functionalities like searching of blogs , Light mode and Dark Mode , Routing are provided.",
+    image: "/project_images/adityablogss.png",
+    tags: ["React Js", "TailwindCSS", "Firebase"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/AdityaBlogs",
+    webapp: "https://adityablogs.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Course App",
+    date: "23 December 2022",
+    description:
+      "A Course App built using reactJS, TailwindCSS, SpringBoot(Rest API) and MySQL.",
+    image: "/project_images/course.png",
+    tags: ["ReactJS", "TailwindCSS", "SpringBoot", "MySQL"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/CoursesApp",
+    webapp: "https://adityacoursesapp.netlify.app/",
+  },
+  {
+    id: 6,
     title: "FaceGram",
     date: "05 May 2024",
     description:
       "Facegram, a robust social media application built with the MERN stack, offers complete functionality including user authentication, friend management, posts, and seamless interaction, fostering a vibrant online community experience. ",
     image: "/project_images/Facegram.png",
-    tags: ["ReactJS", "TailwindCSS", "ExpressJS", "NodeJS","MongoDB"],
+    tags: ["ReactJS", "TailwindCSS", "ExpressJS", "NodeJS", "MongoDB"],
     category: "fullstack projects",
     github: "https://github.com/AdityaThakur79/FaceGram",
     webapp: "",
   },
-
+  {
+    id: 7,
+    title: "FitTracker",
+    date: "04 June 2024",
+    description:
+      "FiTracker is a dynamic fitness app designed to help users schedule and manage their workout plans day-wise. It tracks calories burned, the total number of workouts, and provides detailed insights into daily activities. The app enhances data visualization with interactive graphs and pie charts, utilizing MUI Charts, offering users a clear and efficient overview of their fitness progress.",
+    image: "/project_images/fitTrack.png",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "MaterialUI"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/FitTracker",
+    webapp: "https://fittracker-p3qy.onrender.com/",
+  },
+  {
+    id: 8,
+    title: "Artwork Showcase Platform",
+    date: "18 April 2024",
+    description:
+      "Artwork Showcase Platform connecting artists and enthusiasts. Artist can sell artworks, host exhibition, write blogs, while enthusiasts engage, chat, and seek consultation",
+    image: "/project_images/artwork.png",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "TailwindCSS"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/Artwork-Showcase-Platform",
+    webapp: "https://artwork-showcase-platform.onrender.com/",
+  },
+  {
+    id: 9,
+    title: "Electronics Shop",
+    date: "05 August 2024",
+    description:
+      "Electronic Store E-commerce Platform is a feature-rich online marketplace built using the MERN stack. The platform allows users to browse and purchase a wide range of electronic products with a seamless user experience. It includes functionalities like user authentication, product search and filtering, a shopping cart, secure payment integration, and order tracking. The admin panel enables efficient management of products, categories, orders, and users. Designed with a modern UI and responsive design, the platform ensures accessibility and performance across devices, delivering a comprehensive e-commerce solution.",
+    image: "/project_images/electronic.png",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Bootstrap"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/Electronics-Shop",
+    webapp: "https://electronics-shop-2.onrender.com/",
+  },
+  {
+    id: 10,
+    title: "Real-Time Location Tracker",
+    date: "04 June 2024",
+    description:
+      "Real-Time Location Tracker is a web-based application built using Node.js, EJS, and Socket.IO, enabling real-time tracking and sharing of user locations.",
+    image: "/project_images/realtime.png",
+    tags: ["NodeJS", "EJS", "SocketIO"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/Realtime-Location-Tracker",
+    webapp: "https://realtime-location-tracker-ge44.onrender.com/",
+  },
+  {
+    id: 11,
+    title: "Lecture Scheduling Platform",
+    date: "04 June 2024",
+    description:
+      "FiTracker is a dynamic fitness app designed to help users schedule and manage their workout plans day-wise. It tracks calories burned, the total number of workouts, and provides detailed insights into daily activities. The app enhances data visualization with interactive graphs and pie charts, utilizing MUI Charts, offering users a clear and efficient overview of their fitness progress.",
+    image: "/project_images/fitTrack.png",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "MaterialUI"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/FitTracker",
+    webapp: "https://fittracker-p3qy.onrender.com/",
+  },
+  {
+    id: 12,
+    title: "Women Security Women Empowerment",
+    date: "24 October 2024",
+    description: "The Women Security and Empowerment System aims to enhance women's safety and promote their independence. It offers features like live location tracking, an SOS button for emergencies, safe route suggestions, and nearby safe place locators such as police stations. Additionally, it provides educational resources, self-defense training, and empowerment programs to support women's growth and financial independence.",
+    image: "/project_images/wswe.png",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Twilio"],
+    category: "fullstack projects",
+    github:
+      "https://github.com/AdityaThakur79/women-security-women-empowerment",
+    webapp: "https://women-security-women-empowerment.onrender.com/",
+  },
 ];
 
 // export const TimeLineData = [

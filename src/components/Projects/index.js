@@ -51,40 +51,6 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "FireBase Projects" ? (
-            <ToggleButton
-              active
-              value="firebase projects"
-              onClick={() => setToggle("firebase projects")}
-            >
-              FireBase Projects
-            </ToggleButton>
-          ) : (
-            <ToggleButton
-              value="firebase projects"
-              onClick={() => setToggle("firebase projects")}
-            >
-              FireBase Projects
-            </ToggleButton>
-          )}
-          <Divider />
-          {toggle === "api projects" ? (
-            <ToggleButton
-              active
-              value="api projects"
-              onClick={() => setToggle("api projects")}
-            >
-              API Projects
-            </ToggleButton>
-          ) : (
-            <ToggleButton
-              value="api projects"
-              onClick={() => setToggle("api projects")}
-            >
-              API Projects
-            </ToggleButton>
-          )}
-          <Divider />
           {toggle === "fullstack projects" ? (
             <ToggleButton
               active
