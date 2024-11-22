@@ -368,7 +368,8 @@ export const projects = [
     id: 12,
     title: "Women Security Women Empowerment",
     date: "24 October 2024",
-    description: "The Women Security and Empowerment System aims to enhance women's safety and promote their independence. It offers features like live location tracking, an SOS button for emergencies, safe route suggestions, and nearby safe place locators such as police stations. Additionally, it provides educational resources, self-defense training, and empowerment programs to support women's growth and financial independence.",
+    description:
+      "The Women Security and Empowerment System aims to enhance women's safety and promote their independence. It offers features like live location tracking, an SOS button for emergencies, safe route suggestions, and nearby safe place locators such as police stations. Additionally, it provides educational resources, self-defense training, and empowerment programs to support women's growth and financial independence.",
     image: "/project_images/wswe.png",
     tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Twilio"],
     category: "fullstack projects",
@@ -378,10 +379,18 @@ export const projects = [
   },
 ];
 
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
+export const TimeLineData = [
+  { year: 2021, text: "Started my journey in Computer Engineering" },
+  {
+    year: 2022,
+    text: "Started developing web pages and worked as a freelance developer",
+  },
+  {
+    year: 2023,
+    text: "Joined Google Developer Student Club (GDSC) as a technical member,Organized impactful tech events as part of the GDSC team",
+  },
+  {
+    year: 2024,
+    text: "Selected as GDSC Lead and completed a 6-month internship as a full-stack developer",
+  },
+];
