@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import { EventImages } from "../../data/constants";
+import { EventImages1, EventImages2 } from "../../data/constants";
 
 const scrollAnimation = keyframes`
 0% {
