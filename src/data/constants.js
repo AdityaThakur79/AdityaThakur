@@ -394,3 +394,22 @@ export const TimeLineData = [
     text: "Selected as GDSC Lead and completed a 6-month internship as a full-stack developer",
   },
 ];
+
+export const EventImages1 = [
+  "https://drive.google.com/file/d/1n1dvBymKjnkfiVTKI_hyjpvk6qrX1-xl/view?usp=sharing",
+  "https://drive.google.com/file/d/14Gvpg28oLTcL2ie7vFK41szSFd0gA9_U/view?usp=sharing",
+  "https://drive.google.com/file/d/1RWbaZTeMNII2g4C9FdsSl-vqF6nF19CU/view?usp=sharing",
+  "https://drive.google.com/file/d/1XNkUYTWYj6yHC2eSFtMJoSRU52yZPN1a/view?usp=sharing",
+  "https://drive.google.com/file/d/15D3CNQ7ZCNWJcFoHkqKYWaDaNbTcL-SM/view?usp=sharing",
+  "https://drive.google.com/file/d/1TzLxH1kvv0UOlimESaOXEtbwdB2nB96Q/view?usp=sharing",
+  "https://drive.google.com/file/d/1YstqDeH9fPrBiYz8VG2MLithBsAXFSXt/view?usp=sharing",
+];
+export const EventImages2 = [
+  "https://drive.google.com/file/d/16dHyIvReDJCL3uxnQP0Ho37Efe6qcPRk/view?usp=sharing",
+  "https://drive.google.com/file/d/1kUkI6UaInXFpbPvbw2qDDzm3WHk53tgI/view?usp=sharing",
+  "https://drive.google.com/file/d/1wJKZ1SeOJZunoxAcjOfHNXfiP6GU7Wmy/view?usp=sharing",
+  "https://drive.google.com/file/d/16-JaM98Bs8XLZ3rLoSWFMnc2PhuOEnIe/view?usp=sharing",
+  "https://drive.google.com/file/d/1QmUWTcECKvBqYkIjdRe7JH9qKa5RxNsM/view?usp=sharing",
+  "https://drive.google.com/file/d/1jpXHAv_6OTWUyUgDa8hl6w43iYpQ_S5N/view?usp=sharing",
+  "https://drive.google.com/file/d/1u5CZqM122gYChcLwQ8fmM8XgY6-s87uk/view?usp=sharing",
+];
