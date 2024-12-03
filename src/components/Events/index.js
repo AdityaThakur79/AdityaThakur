@@ -88,23 +88,25 @@ const Desc = styled.div`
 `;
 const index = () => {
   const EventImages1 = [
-    "https://drive.google.com/file/d/1n1dvBymKjnkfiVTKI_hyjpvk6qrX1-xl/view?usp=sharing",
-    "https://drive.google.com/file/d/14Gvpg28oLTcL2ie7vFK41szSFd0gA9_U/view?usp=sharing",
-    "https://drive.google.com/file/d/1RWbaZTeMNII2g4C9FdsSl-vqF6nF19CU/view?usp=sharing",
-    "https://drive.google.com/file/d/1XNkUYTWYj6yHC2eSFtMJoSRU52yZPN1a/view?usp=sharing",
-    "https://drive.google.com/file/d/15D3CNQ7ZCNWJcFoHkqKYWaDaNbTcL-SM/view?usp=sharing",
-    "https://drive.google.com/file/d/1TzLxH1kvv0UOlimESaOXEtbwdB2nB96Q/view?usp=sharing",
-    "https://drive.google.com/file/d/1YstqDeH9fPrBiYz8VG2MLithBsAXFSXt/view?usp=sharing",
+    "https://drive.google.com/uc?export=view&id=1n1dvBymKjnkfiVTKI_hyjpvk6qrX1-xl",
+    "https://drive.google.com/uc?export=view&id=14Gvpg28oLTcL2ie7vFK41szSFd0gA9_U",
+    "https://drive.google.com/uc?export=view&id=1RWbaZTeMNII2g4C9FdsSl-vqF6nF19CU",
+    "https://drive.google.com/uc?export=view&id=1XNkUYTWYj6yHC2eSFtMJoSRU52yZPN1a",
+    "https://drive.google.com/uc?export=view&id=15D3CNQ7ZCNWJcFoHkqKYWaDaNbTcL-SM",
+    "https://drive.google.com/uc?export=view&id=1TzLxH1kvv0UOlimESaOXEtbwdB2nB96Q",
+    "https://drive.google.com/uc?export=view&id=1YstqDeH9fPrBiYz8VG2MLithBsAXFSXt",
   ];
+
   const EventImages2 = [
-    "https://drive.google.com/file/d/16dHyIvReDJCL3uxnQP0Ho37Efe6qcPRk/view?usp=sharing",
-    "https://drive.google.com/file/d/1kUkI6UaInXFpbPvbw2qDDzm3WHk53tgI/view?usp=sharing",
-    "https://drive.google.com/file/d/1wJKZ1SeOJZunoxAcjOfHNXfiP6GU7Wmy/view?usp=sharing",
-    "https://drive.google.com/file/d/16-JaM98Bs8XLZ3rLoSWFMnc2PhuOEnIe/view?usp=sharing",
-    "https://drive.google.com/file/d/1QmUWTcECKvBqYkIjdRe7JH9qKa5RxNsM/view?usp=sharing",
-    "https://drive.google.com/file/d/1jpXHAv_6OTWUyUgDa8hl6w43iYpQ_S5N/view?usp=sharing",
-    "https://drive.google.com/file/d/1u5CZqM122gYChcLwQ8fmM8XgY6-s87uk/view?usp=sharing",
+    "https://drive.google.com/uc?export=view&id=16dHyIvReDJCL3uxnQP0Ho37Efe6qcPRk",
+    "https://drive.google.com/uc?export=view&id=1kUkI6UaInXFpbPvbw2qDDzm3WHk53tgI",
+    "https://drive.google.com/uc?export=view&id=1wJKZ1SeOJZunoxAcjOfHNXfiP6GU7Wmy",
+    "https://drive.google.com/uc?export=view&id=16-JaM98Bs8XLZ3rLoSWFMnc2PhuOEnIe",
+    "https://drive.google.com/uc?export=view&id=1QmUWTcECKvBqYkIjdRe7JH9qKa5RxNsM",
+    "https://drive.google.com/uc?export=view&id=1jpXHAv_6OTWUyUgDa8hl6w43iYpQ_S5N",
+    "https://drive.google.com/uc?export=view&id=1u5CZqM122gYChcLwQ8fmM8XgY6-s87uk",
   ];
+
   return (
     <Container id="events">
       <Wrapper>
