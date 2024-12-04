@@ -12,7 +12,7 @@ const scrollAnimation = keyframes`
 
 const ScrollContent = styled.div`
   display: flex;
-  animation: ${scrollAnimation} 20s linear infinite;
+  animation: ${scrollAnimation} 30s linear infinite;
 
   &:hover {
     animation-play-state: paused;
