@@ -6,14 +6,17 @@ const scrollAnimation = keyframes`
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* Scroll to half the total content width */
+    transform: translateX(-50%);  
   }
 `;
 
 const ScrollContent = styled.div`
   display: flex;
-  animation: ${scrollAnimation} 20s linear infinite; /* Adjust timing for smoothness */
-  width: calc(200%); /* Set width to accommodate the duplicated content */
+  animation: ${scrollAnimation} 20s linear infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
 `;
 
 const Container = styled.div`
@@ -26,7 +29,7 @@ const Container = styled.div`
   align-items: center;
   padding: 20px 0;
   @media (max-width: 960px) {
-    padding: 20px 0; /* Adjust padding for smaller screens */
+    padding: 20px 0;
   }
 `;
 
@@ -41,8 +44,8 @@ const Wrapper = styled.div`
   padding: 20px 0;
   gap: 12px;
   @media (max-width: 960px) {
-    padding: 40px 20px; /* Reduce padding and add horizontal spacing */
-    gap: 8px; /* Decrease gap for smaller screens */
+    padding: 40px 20px;
+    gap: 8px;
   }
 `;
 
@@ -54,7 +57,7 @@ const Title = styled.div`
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
-    font-size: 32px; /* Smaller font for mobile */
+    font-size: 32px;
   }
 `;
 
@@ -66,7 +69,7 @@ const Desc = styled.div`
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
-    max-width: 90%; /* Reduce max-width for better fit on smaller screens */
+    max-width: 90%;
   }
 `;
 
@@ -79,7 +82,7 @@ const ScrollBarContainer = styled.div`
   align-items: center;
   margin-top: 20px;
   @media (max-width: 768px) {
-    height: 150px; /* Reduce height for smaller screens */
+    height: 150px;
   }
 `;
 
