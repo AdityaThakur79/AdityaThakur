@@ -1,51 +1,32 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-const scrollAnimation = keyframes`
-0% {
-  transform: translateX(0);
-}
-100% {
-  transform: translateX(-100%);
-}
-`;
 
-const ScrollBarContainer = styled.div`
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 220px;
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
+const scrollAnimation = keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Scroll to half the total content width */
+  }
 `;
 
 const ScrollContent = styled.div`
   display: flex;
-  animation: ${scrollAnimation} 20s linear infinite;
+  animation: ${scrollAnimation} 20s linear infinite; /* Adjust timing for smoothness */
+  width: calc(200%); /* Set width to accommodate the duplicated content */
 `;
 
-const ImageWrapper = styled.div`
-  flex-shrink: 0;
-  margin: 0px 10px;
-  img {
-    width: 400px;
-    height: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
-  }
-`;
 const Container = styled.div`
   display: flex;
-  width: 100%;
+  max-width: 100vw;
   flex-direction: column;
   justify-content: center;
   position: relative;
   z-index: 1;
   align-items: center;
-  padding: 40px 0px 80px 0px;
+  padding: 20px 0;
   @media (max-width: 960px) {
-    padding: 0px;
+    padding: 20px 0; /* Adjust padding for smaller screens */
   }
 `;
 
@@ -56,11 +37,12 @@ const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  max-width: 1350px;
-  padding: 80px 0;
+  max-width: 100wv;
+  padding: 20px 0;
   gap: 12px;
   @media (max-width: 960px) {
-    flex-direction: column;
+    padding: 40px 20px; /* Reduce padding and add horizontal spacing */
+    gap: 8px; /* Decrease gap for smaller screens */
   }
 `;
 
@@ -72,7 +54,7 @@ const Title = styled.div`
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
-    font-size: 32px;
+    font-size: 32px; /* Smaller font for mobile */
   }
 `;
 
@@ -84,28 +66,74 @@ const Desc = styled.div`
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
+    max-width: 90%; /* Reduce max-width for better fit on smaller screens */
   }
 `;
-const index = () => {
+
+const ScrollBarContainer = styled.div`
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  @media (max-width: 768px) {
+    height: 150px; /* Reduce height for smaller screens */
+  }
+`;
+
+const ImageWrapper = styled.div`
+  flex-shrink: 0;
+  margin: 0px 10px;
+  img {
+    width: 400px;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    @media (max-width: 768px) {
+      width: 200px;
+    }
+  }
+`;
+const ImageWrapper2 = styled.div`
+  flex-shrink: 0;
+  margin: 0px 10px;
+  img {
+    width: 300px;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    @media (max-width: 768px) {
+      width: 200px;
+    }
+  }
+`;
+
+const Index = () => {
   const EventImages1 = [
-    "../../../public/EventImages/techx.jpeg",
-    "../../../public/EventImages/techtalk.jpeg",
-    "../../../public/EventImages/Mongo.jpeg",
-    "../../../public/EventImages/inaugration.jpeg",
-    "../../../public/EventImages/MH3.jpeg",
-    "../../../public/EventImages/mongo2.jpeg",
-    "../../../public/EventImages/techtalk3.jpeg",
-    "../../../public/EventImages/resilience.jpeg",
+    "./EventImages/techx.jpeg",
+    "./EventImages/techtalk.jpeg",
+    "./EventImages/inaugration.jpeg",
+    "./EventImages/Mongo.jpeg",
+    "./EventImages/techtalk3.jpeg",
+    "./EventImages/observability.jpeg",
+    "./EventImages/MH3.jpeg",
+    "./EventImages/mongo2.jpeg",
+    "./EventImages/resilience.jpeg",
   ];
 
   const EventImages2 = [
-    "../../../public/EventImages/cloud.jpeg",
-    "../../../public/EventImages/techtalk2.jpeg",
-    "../../../public/EventImages/mug.jpeg",
-    "../../../public/EventImages/MH.jpeg",
-    "../../../public/EventImages/mongodb.jpeg",
-    "../../../public/EventImages/MH2.jpeg",
-    "../../../public/EventImages/cloud2.jpeg",
+    "./EventImages/cloud.jpeg",
+    "./EventImages/mug.jpeg",
+    "./EventImages/MH.jpeg",
+    "./EventImages/techfest.jpeg",
+    "./EventImages/techtalk2.jpeg",
+    "./EventImages/mongodb.jpeg",
+    "./EventImages/MH2.jpeg",
+    "./EventImages/cloud2.jpeg",
   ];
 
   return (
@@ -115,6 +143,7 @@ const index = () => {
         <Desc>
           Showcasing memorable tech events I organize and attend regularly
         </Desc>
+
         <ScrollBarContainer>
           <ScrollContent>
             {[...EventImages1, ...EventImages1].map((src, index) => (
@@ -127,9 +156,9 @@ const index = () => {
         <ScrollBarContainer>
           <ScrollContent>
             {[...EventImages2, ...EventImages2].map((src, index) => (
-              <ImageWrapper key={index}>
+              <ImageWrapper2 key={index}>
                 <img src={src} alt={`image-${index}`} />
-              </ImageWrapper>
+              </ImageWrapper2>
             ))}
           </ScrollContent>
         </ScrollBarContainer>
@@ -138,4 +167,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
