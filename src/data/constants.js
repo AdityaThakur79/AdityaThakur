@@ -221,7 +221,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 13,
     title: "Job Searching App",
     date: "12 August 2023",
     description:
@@ -233,7 +233,7 @@ export const projects = [
     webapp: "https://jobsdekho.vercel.app/",
   },
   {
-    id: 1,
+    id: 12,
     title: "Portfolio Website Design",
     date: "21 September 2022",
     description: "A Portfolio Website design Made By Using HTML , CSS and JS.",
@@ -245,7 +245,7 @@ export const projects = [
     webapp: "https://adityathakurportfolio.netlify.app/",
   },
   {
-    id: 2,
+    id: 11,
     title: "RedStore",
     date: "30 July 2022",
     description:
@@ -257,7 +257,7 @@ export const projects = [
     webapp: "https://adityaredstore.netlify.app/",
   },
   {
-    id: 3,
+    id: 10,
     title: "FamilyTree Restaurant",
     date: "12 Jan 2024",
     description:
@@ -269,7 +269,7 @@ export const projects = [
     webapp: "https://family--tree.vercel.app/",
   },
   {
-    id: 4,
+    id: 9,
     title: "Blogging Application",
     date: "14 December 2023",
     description:
@@ -281,7 +281,7 @@ export const projects = [
     webapp: "https://adityablogs.vercel.app/",
   },
   {
-    id: 5,
+    id: 8,
     title: "Course App",
     date: "23 December 2022",
     description:
@@ -293,7 +293,7 @@ export const projects = [
     webapp: "https://adityacoursesapp.netlify.app/",
   },
   {
-    id: 6,
+    id: 5,
     title: "FaceGram",
     date: "05 May 2024",
     description:
@@ -305,7 +305,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 7,
+    id: 4,
     title: "FitTracker",
     date: "04 June 2024",
     description:
@@ -317,7 +317,7 @@ export const projects = [
     webapp: "https://fittracker-p3qy.onrender.com/",
   },
   {
-    id: 8,
+    id: 3,
     title: "Artwork Showcase Platform",
     date: "18 April 2024",
     description:
@@ -329,7 +329,7 @@ export const projects = [
     webapp: "https://artwork-showcase-platform.onrender.com/",
   },
   {
-    id: 9,
+    id: 2,
     title: "Electronics Shop",
     date: "05 August 2024",
     description:
@@ -341,7 +341,7 @@ export const projects = [
     webapp: "https://electronics-shop-2.onrender.com/",
   },
   {
-    id: 10,
+    id: 7,
     title: "Real-Time Location Tracker",
     date: "04 June 2024",
     description:
@@ -353,7 +353,7 @@ export const projects = [
     webapp: "https://realtime-location-tracker-ge44.onrender.com/",
   },
   {
-    id: 11,
+    id: 6,
     title: "Lecture Scheduling Platform",
     date: "04 June 2024",
     description:
@@ -365,7 +365,7 @@ export const projects = [
     webapp: "https://fittracker-p3qy.onrender.com/",
   },
   {
-    id: 12,
+    id: 1,
     title: "Women Security Women Empowerment",
     date: "24 October 2024",
     description:
@@ -376,6 +376,18 @@ export const projects = [
     github:
       "https://github.com/AdityaThakur79/women-security-women-empowerment",
     webapp: "https://women-security-women-empowerment.onrender.com/",
+  },
+  {
+    id: 0,
+    title: "Learning Management System",
+    date: "4 November 2024",
+    description:
+      "Learning Management System (LMS) designed to streamline online education for both administrators and users. Built using modern web development technologies, the LMS provides an intuitive interface and robust features to support course creation, management, and learning experiences.",
+    image: "/project_images/lms.png",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/LMS",
+    webapp: "https://lms-taxj.onrender.com/",
   },
 ];
 
