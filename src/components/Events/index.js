@@ -1,6 +1,5 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-
 const scrollAnimation = keyframes`
 0% {
   transform: translateX(0);
@@ -38,6 +37,7 @@ const ImageWrapper = styled.div`
 `;
 const Container = styled.div`
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   position: relative;
@@ -88,23 +88,24 @@ const Desc = styled.div`
 `;
 const index = () => {
   const EventImages1 = [
-    "https://hacktheleague.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fhack-the-league%2Fimage%2Fupload%2Fv1730386933%2Fwebsite%2Fchapter%25203%2FHTL-430_yqx6am.jpg&w=1920&q=75",
-    "https://drive.google.com/uc?export=view&id=14Gvpg28oLTcL2ie7vFK41szSFd0gA9_U",
-    "https://drive.google.com/uc?export=view&id=1RWbaZTeMNII2g4C9FdsSl-vqF6nF19CU",
-    "https://drive.google.com/uc?export=view&id=1XNkUYTWYj6yHC2eSFtMJoSRU52yZPN1a",
-    "https://drive.google.com/uc?export=view&id=15D3CNQ7ZCNWJcFoHkqKYWaDaNbTcL-SM",
-    "https://drive.google.com/uc?export=view&id=1TzLxH1kvv0UOlimESaOXEtbwdB2nB96Q",
-    "https://drive.google.com/uc?export=view&id=1YstqDeH9fPrBiYz8VG2MLithBsAXFSXt",
+    "../../../public/EventImages/techx.jpeg",
+    "../../../public/EventImages/techtalk.jpeg",
+    "../../../public/EventImages/Mongo.jpeg",
+    "../../../public/EventImages/inaugration.jpeg",
+    "../../../public/EventImages/MH3.jpeg",
+    "../../../public/EventImages/mongo2.jpeg",
+    "../../../public/EventImages/techtalk3.jpeg",
+    "../../../public/EventImages/resilience.jpeg",
   ];
 
   const EventImages2 = [
-    "https://drive.google.com/uc?export=view&id=16dHyIvReDJCL3uxnQP0Ho37Efe6qcPRk",
-    "https://drive.google.com/uc?export=view&id=1kUkI6UaInXFpbPvbw2qDDzm3WHk53tgI",
-    "https://drive.google.com/uc?export=view&id=1wJKZ1SeOJZunoxAcjOfHNXfiP6GU7Wmy",
-    "https://drive.google.com/uc?export=view&id=16-JaM98Bs8XLZ3rLoSWFMnc2PhuOEnIe",
-    "https://drive.google.com/uc?export=view&id=1QmUWTcECKvBqYkIjdRe7JH9qKa5RxNsM",
-    "https://drive.google.com/uc?export=view&id=1jpXHAv_6OTWUyUgDa8hl6w43iYpQ_S5N",
-    "https://drive.google.com/uc?export=view&id=1u5CZqM122gYChcLwQ8fmM8XgY6-s87uk",
+    "../../../public/EventImages/cloud.jpeg",
+    "../../../public/EventImages/techtalk2.jpeg",
+    "../../../public/EventImages/mug.jpeg",
+    "../../../public/EventImages/MH.jpeg",
+    "../../../public/EventImages/mongodb.jpeg",
+    "../../../public/EventImages/MH2.jpeg",
+    "../../../public/EventImages/cloud2.jpeg",
   ];
 
   return (
