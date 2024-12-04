@@ -88,7 +88,7 @@ const Desc = styled.div`
 `;
 const index = () => {
   const EventImages1 = [
-    "https://drive.google.com/uc?export=view&id=1n1dvBymKjnkfiVTKI_hyjpvk6qrX1-xl",
+    "https://hacktheleague.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fhack-the-league%2Fimage%2Fupload%2Fv1730386933%2Fwebsite%2Fchapter%25203%2FHTL-430_yqx6am.jpg&w=1920&q=75",
     "https://drive.google.com/uc?export=view&id=14Gvpg28oLTcL2ie7vFK41szSFd0gA9_U",
     "https://drive.google.com/uc?export=view&id=1RWbaZTeMNII2g4C9FdsSl-vqF6nF19CU",
     "https://drive.google.com/uc?export=view&id=1XNkUYTWYj6yHC2eSFtMJoSRU52yZPN1a",
