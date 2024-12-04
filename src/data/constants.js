@@ -394,4 +394,3 @@ export const projects = [
 //     text: "Selected as GDSC Lead and completed a 6-month internship as a full-stack developer",
 //   },
 // ];
-
