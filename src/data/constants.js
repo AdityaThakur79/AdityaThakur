@@ -1,8 +1,9 @@
 export const Bio = {
   name: "Aditya Thakur",
   roles: ["Full Stack Web Developer;", "FreeLancer;", "C.E. Undergraduate;"],
-  description1: "Lead of Google Developer Groups on Campus (formerly GDSC), a passionate Full-Stack Web Developer, and a dedicated Computer Science Undergraduate at Universal College of Engineering.",
-   description2: "",
+  description1:
+    "Lead of Google Developer Groups on Campus (formerly GDSC), a passionate Full-Stack Web Developer, and a dedicated Computer Science Undergraduate at Universal College of Engineering.",
+  description2: "",
   github: "https://github.com/AdityaThakur79",
   resume:
     "https://drive.google.com/file/d/137mhwWvjyxgN6ASaXAV0d9VSA645lYBm/view?usp=sharing",
@@ -17,16 +18,11 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
+        name: "CSS/SCSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
@@ -34,6 +30,11 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
         name: "Bootstrap",
@@ -50,6 +51,15 @@ export const skills = [
         image:
           "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
       },
+      {
+        name: "Shadcn UI",
+        image:
+          "https://miro.medium.com/v2/resize:fit:1400/1*O-ClkORJkmUm1wRsApB_yQ.png",
+      },
+      {
+        name: "Magic UI",
+        image: "https://magicui.design/icon.png",
+      },
     ],
   },
   {
@@ -59,6 +69,10 @@ export const skills = [
         name: "SpringBoot",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTotX7svotcL35AbGXtkr56b_ySk_9jjn0Z-If-k0sg&s",
+      },
+      {
+        name: "NodeJS",
+        image: "https://juststickers.in/wp-content/uploads/2019/07/nodejs.png",
       },
       {
         name: "MySQL",
@@ -80,6 +94,11 @@ export const skills = [
   {
     title: "Others",
     skills: [
+      {
+        name: "REST API",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJoxiAXVIxedd5WnxL3yepJpACK2lmCSl9w&s",
+      },
       {
         name: "Git",
         image: "https://www.svgrepo.com/show/58/git-logo.svg",
