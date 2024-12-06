@@ -221,7 +221,7 @@ export const education = [
     id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT37v3Q33QKHltlZCmnWdh36Gubj1jtGlHPvszxnYHeng&s",
     school: "B.N.N College of Arts,Commerce and Science, Thane",
-    date: "Apr 2019 - Apr 2025",
+    date: "Apr 2019 - Apr 2021",
     grade: "92.33%",
     desc: "I completed my HSC education at B.N.N college of Arts,Commerce and Science, Thane",
     degree: "HSC(XII), Science(PCMB)",
