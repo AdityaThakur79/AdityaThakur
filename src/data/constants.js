@@ -2,7 +2,7 @@ export const Bio = {
   name: "Aditya Thakur",
   roles: ["Full Stack Web Developer;", "FreeLancer;", "C.E. Undergraduate;"],
   description1:
-    "Lead of Google Developer Groups on Campus (formerly GDSC), a passionate Full-Stack Web Developer, and a dedicated Computer Science Undergraduate at Universal College of Engineering.",
+    "Lead of GDG on Campus (formerly GDSC), a passionate Full-Stack Web Developer, and a dedicated Computer Science Undergraduate at Universal College of Engineering.",
   description2: "",
   github: "https://github.com/AdityaThakur79",
   resume:
