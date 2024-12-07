@@ -95,6 +95,7 @@ function Footer() {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#events">Events</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
@@ -103,7 +104,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.youtube} target="display"><YoutubeIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Aditya Thakur. All rights reserved.
+          &copy; 2024 Aditya Thakur. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
