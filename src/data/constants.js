@@ -348,6 +348,19 @@ export const projects = [
     webapp: "https://adityacoursesapp.netlify.app/",
   },
   {
+    id: 8,
+    title: "Music Academy",
+    date: "7 December 2024",
+    description:
+      "",
+    image: "/project_images/musicAcademy.png",
+    tags: ["NextJS", "TailwindCSS", "AccernityUI"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/MusicAcademy",
+    // webapp: "https://github.com/AdityaThakur79/MusicAcademy",
+  },
+  
+  {
     id: 13,
     title: "Job Searching App",
     date: "12 August 2023",
