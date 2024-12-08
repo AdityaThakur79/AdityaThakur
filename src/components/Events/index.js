@@ -46,6 +46,8 @@ const Wrapper = styled.div`
   @media (max-width: 960px) {
     padding: 40px 20px;
     gap: 8px;
+    width: 100%;
+    max-width: 100wv;
   }
 `;
 
@@ -82,6 +84,7 @@ const ScrollBarContainer = styled.div`
   align-items: center;
   margin-top: 20px;
   @media (max-width: 768px) {
+    width: 100%;
     height: 150px;
   }
 `;
