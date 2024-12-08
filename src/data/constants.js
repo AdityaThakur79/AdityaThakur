@@ -352,14 +352,14 @@ export const projects = [
     title: "Music Academy",
     date: "7 December 2024",
     description:
-      "",
+      "MusicAcademy is the frontend website for the Music Academy, developed using Next.js and styled with Accernity UI. The website serves as a platform for students to explore available music courses, view instructor profiles, and register for classes.",
     image: "/project_images/musicAcademy.png",
     tags: ["NextJS", "TailwindCSS", "AccernityUI"],
     category: "fullstack projects",
     github: "https://github.com/AdityaThakur79/MusicAcademy",
     // webapp: "https://github.com/AdityaThakur79/MusicAcademy",
   },
-  
+
   {
     id: 13,
     title: "Job Searching App",
