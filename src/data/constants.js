@@ -6,7 +6,7 @@ export const Bio = {
   description2: "",
   github: "https://github.com/AdityaThakur79",
   resume:
-    "https://drive.google.com/file/d/137mhwWvjyxgN6ASaXAV0d9VSA645lYBm/view?usp=sharing",
+    "https://drive.google.com/file/d/1fz3k0ItwYQeEBVylkiT339ei78D-xBvw/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aditya-thakur-507363282/",
   twitter: "https://twitter.com/Aditya__0508",
   insta: "https://www.instagram.com/mai_adityathakur/",
@@ -248,7 +248,7 @@ export const projects = [
     tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
     category: "fullstack projects",
     github: "https://github.com/AdityaThakur79/LMS",
-    webapp: "https://lms-taxj.onrender.com/",
+    webapp: "https://lms-main-hpi3.onrender.com/",
   },
   {
     id: 1,
