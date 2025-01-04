@@ -251,6 +251,30 @@ export const projects = [
     webapp: "https://lms-main-hpi3.onrender.com/",
   },
   {
+    id: 12,
+    title: "NewsArticle WebApp",
+    date: "19 December 2024",
+    description:
+      "Newsify is a full-stack news website application that allows users to read, manage, and interact with articles. The platform includes features for both regular users and administrators, providing functionalities like article management, user registration, and more. The app supports rich text content creation, role-based access, and article categorization.",
+    image: "/project_images/news.png",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/Newsify",
+    webapp: "https://newsify-myh1.onrender.com/",
+  },
+  {
+    id: 13,
+    title: "Lead Management Platform",
+    date: "31 December 2024",
+    description:
+      " A simple and scalable Lead Management System built using React, Redux, Node.js, and MongoDB. This system allows sales and marketing teams to track, manage, and update leads through a user-friendly interface, with features like adding, updating, and deleting leads, assigning status, adding comments, and more.",
+    image: "/project_images/lead.png",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
+    category: "fullstack projects",
+    github: "https://github.com/AdityaThakur79/LeadManagementSystem",
+    webapp: "https://leadmanagementsystem.onrender.com/",
+  },
+  {
     id: 1,
     title: "Women Security Women Empowerment",
     date: "24 October 2024",
@@ -263,18 +287,7 @@ export const projects = [
       "https://github.com/AdityaThakur79/women-security-women-empowerment",
     webapp: "https://women-security-women-empowerment.onrender.com/",
   },
-  {
-    id: 2,
-    title: "Electronics Shop",
-    date: "05 August 2024",
-    description:
-      "Electronic Store E-commerce Platform is a feature-rich online marketplace built using the MERN stack. The platform allows users to browse and purchase a wide range of electronic products with a seamless user experience. It includes functionalities like user authentication, product search and filtering, a shopping cart, secure payment integration, and order tracking. The admin panel enables efficient management of products, categories, orders, and users. Designed with a modern UI and responsive design, the platform ensures accessibility and performance across devices, delivering a comprehensive e-commerce solution.",
-    image: "/project_images/electronic.png",
-    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Bootstrap"],
-    category: "fullstack projects",
-    github: "https://github.com/AdityaThakur79/Electronics-Shop",
-    webapp: "https://electronics-shop-2.onrender.com/",
-  },
+
   {
     id: 3,
     title: "Artwork Showcase Platform",
@@ -299,54 +312,18 @@ export const projects = [
     github: "https://github.com/AdityaThakur79/FitTracker",
     webapp: "https://fittracker-p3qy.onrender.com/",
   },
-  {
-    id: 5,
-    title: "FaceGram",
-    date: "05 May 2024",
-    description:
-      "Facegram, a robust social media application built with the MERN stack, offers complete functionality including user authentication, friend management, posts, and seamless interaction, fostering a vibrant online community experience. ",
-    image: "/project_images/Facegram.png",
-    tags: ["ReactJS", "TailwindCSS", "ExpressJS", "NodeJS", "MongoDB"],
-    category: "fullstack projects",
-    github: "https://github.com/AdityaThakur79/FaceGram",
-    webapp: "",
-  },
-  {
-    id: 6,
-    title: "Lecture Scheduling Platform",
-    date: "04 June 2024",
-    description:
-      "FiTracker is a dynamic fitness app designed to help users schedule and manage their workout plans day-wise. It tracks calories burned, the total number of workouts, and provides detailed insights into daily activities. The app enhances data visualization with interactive graphs and pie charts, utilizing MUI Charts, offering users a clear and efficient overview of their fitness progress.",
-    image: "/project_images/fitTrack.png",
-    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "MaterialUI"],
-    category: "fullstack projects",
-    github: "https://github.com/AdityaThakur79/FitTracker",
-    webapp: "https://fittracker-p3qy.onrender.com/",
-  },
-  {
-    id: 7,
-    title: "Real-Time Location Tracker",
-    date: "04 June 2024",
-    description:
-      "Real-Time Location Tracker is a web-based application built using Node.js, EJS, and Socket.IO, enabling real-time tracking and sharing of user locations.",
-    image: "/project_images/realtime.png",
-    tags: ["NodeJS", "EJS", "SocketIO"],
-    category: "fullstack projects",
-    github: "https://github.com/AdityaThakur79/Realtime-Location-Tracker",
-    webapp: "https://realtime-location-tracker-ge44.onrender.com/",
-  },
-  {
-    id: 8,
-    title: "Course App",
-    date: "23 December 2022",
-    description:
-      "A Course App built using reactJS, TailwindCSS, SpringBoot(Rest API) and MySQL.",
-    image: "/project_images/course.png",
-    tags: ["ReactJS", "TailwindCSS", "SpringBoot", "MySQL"],
-    category: "fullstack projects",
-    github: "https://github.com/AdityaThakur79/CoursesApp",
-    webapp: "https://adityacoursesapp.netlify.app/",
-  },
+  // {
+  //   id: 8,
+  //   title: "Course App",
+  //   date: "23 December 2022",
+  //   description:
+  //     "A Course App built using reactJS, TailwindCSS, SpringBoot(Rest API) and MySQL.",
+  //   image: "/project_images/course.png",
+  //   tags: ["ReactJS", "TailwindCSS", "SpringBoot", "MySQL"],
+  //   category: "fullstack projects",
+  //   github: "https://github.com/AdityaThakur79/CoursesApp",
+  //   webapp: "https://adityacoursesapp.netlify.app/",
+  // },
   {
     id: 8,
     title: "Music Academy",
@@ -359,7 +336,6 @@ export const projects = [
     github: "https://github.com/AdityaThakur79/MusicAcademy",
     // webapp: "https://github.com/AdityaThakur79/MusicAcademy",
   },
-
   {
     id: 13,
     title: "Job Searching App",
@@ -371,31 +347,6 @@ export const projects = [
     category: "frontend web app",
     github: "https://github.com/AdityaThakur79/Task-2-NuveraJobs",
     webapp: "https://jobsdekho.vercel.app/",
-  },
-  {
-    id: 12,
-    title: "Portfolio Website Design",
-    date: "21 September 2022",
-    description: "A Portfolio Website design Made By Using HTML , CSS and JS.",
-    image: "/project_images/portfolio.png",
-    tags: ["HTML", "CSS", "JS"],
-    category: "frontend web app",
-    github:
-      "https://github.com/AdityaThakur79/AdityaThakur-Portfolio.github.io",
-    webapp: "https://adityathakurportfolio.netlify.app/",
-  },
-
-  {
-    id: 9,
-    title: "Blogging Application",
-    date: "14 December 2023",
-    description:
-      " A Blogging Application Web App made with React JS, Tailwind CSS,Tailwind Materials and Firebase storage and Authentication. It has a Admin dashboard where admin can create and delete blogs.Functionalities like searching of blogs , Light mode and Dark Mode , Routing are provided.",
-    image: "/project_images/adityablogss.png",
-    tags: ["React Js", "TailwindCSS", "Firebase"],
-    category: "fullstack projects",
-    github: "https://github.com/AdityaThakur79/AdityaBlogs",
-    webapp: "https://adityablogs.vercel.app/",
   },
   {
     id: 10,
