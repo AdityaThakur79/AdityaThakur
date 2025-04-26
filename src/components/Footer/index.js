@@ -104,7 +104,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.youtube} target="display"><YoutubeIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Aditya Thakur. All rights reserved.
+          &copy; 2025 Aditya Thakur. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
